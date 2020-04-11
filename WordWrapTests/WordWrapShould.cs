@@ -55,5 +55,15 @@ namespace WordWrapTests
             
             Assert.AreEqual("he\nll\no", result);
         }
+        
+        [Test]
+        public void some_columns_with_spaces()
+        {
+            var word = new WordWrap.WordWrap();
+            const string text = "hello world";
+            var result = word.Wrap(text, 7);
+            
+            Assert.AreEqual("hello\nworld", result);
+        }
     }
 }
