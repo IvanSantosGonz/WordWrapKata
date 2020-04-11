@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordWrap", "WordWrap\WordWrap.csproj", "{2018B77D-7F40-47FB-8C51-5A5BA2145595}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordWrapTests", "WordWrapTests\WordWrapTests.csproj", "{72EC6B2C-0ABE-4B02-A6AF-BA2673E096A4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2018B77D-7F40-47FB-8C51-5A5BA2145595}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2018B77D-7F40-47FB-8C51-5A5BA2145595}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2018B77D-7F40-47FB-8C51-5A5BA2145595}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2018B77D-7F40-47FB-8C51-5A5BA2145595}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72EC6B2C-0ABE-4B02-A6AF-BA2673E096A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72EC6B2C-0ABE-4B02-A6AF-BA2673E096A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72EC6B2C-0ABE-4B02-A6AF-BA2673E096A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72EC6B2C-0ABE-4B02-A6AF-BA2673E096A4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
