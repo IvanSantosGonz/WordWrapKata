@@ -6,7 +6,7 @@ If possible, line breaks should not split words. However, if a single word is lo
 
 Really long words may need to be split multiple times.
 
-#Input
+## Input
 
 A word consists of one or more letters.
 
@@ -14,7 +14,7 @@ Input text will be the empty string or a string consisting of one or more words 
 
 The limit will always be an integer greater or equal to one.
 
-#Examples
+### Examples
 
 Note: Line breaks in the results have been replaced with two dashes to improve readability.
 
