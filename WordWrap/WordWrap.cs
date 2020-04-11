@@ -12,10 +12,10 @@
 
             var wrappedWord = text.Substring(0, columns) + "\n";
             var lastSpacePosition = wrappedWord.LastIndexOf(' ');
-
-            if (lastSpacePosition == -1)
+            var existAnySpace = lastSpacePosition != -1;
+            if (!existAnySpace)
             {
-                reducedText += text.Substring(0, columns) + "\n";
+                reducedText += wrappedWord;
                 text = text.Substring(columns);
             }
             else
@@ -23,8 +23,7 @@
                 reducedText += text.Substring(0, lastSpacePosition) + "\n";
                 text = text.Substring(lastSpacePosition + 1);
             }
-
-
+            
             return reducedText + Wrap(text, columns);
         }
     }
