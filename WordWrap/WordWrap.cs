@@ -12,16 +12,8 @@
 
             reducedText += text.Substring(0, columns) + "\n";
             text = text.Substring(columns);
-            
-            if (text.Length <= columns)
-            {
-                return reducedText + text;
-            }
 
-            reducedText += text.Substring(0, columns) + "\n";
-            text = text.Substring(columns);
-            
-            return reducedText + text;
+            return reducedText + Wrap(text, columns);
         }
     }
 }
